@@ -17,6 +17,7 @@ The other code scripts such as d.run.py and the scripts included in parsing fold
 Since different approaches discussed in this study use different graph formats as input files, this folder consists of two python scripts used in order to convert two graph formats used in the approaches.
 
 nde2edge.py converts NDE format (compatible with both magnien/lasagne) to teexgraph/sumsweep while edge2nde.py does the reverse conversion.
+
 example:
 python nde2edge.py ip.nde undirected|directed > ip.txt
 python edge2nde ip.txt > ip.nde
