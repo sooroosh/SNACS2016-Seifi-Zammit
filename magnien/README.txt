@@ -1,4 +1,4 @@
-Clأ©mence Magnien and Matthieu Latapy
+Clemence Magnien and Matthieu Latapy
 September 2007
 http://www-rp.lip6.fr/~magnien/Diameter
 clemence.magnien@lip6.fr
