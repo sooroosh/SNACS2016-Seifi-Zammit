@@ -1,0 +1,16 @@
+To run this folder in an Eclipse project, it is necessary to perform the following steps:
+1) Make sure that JVM 7 is installed (the project is not compatible with previous Java versions).
+2) Copy this whole folder inside your Eclipse Workspace.
+3) Open Eclipse.
+4) Click File-New-Java Project.
+5) Enter the name of this folder (SumSweep if it has not been renamed) in the field "Project name".
+6) Click Finish.
+7) Test the project: if it does not work, continue through steps 8-13.
+8) Right-click on the project and choose Properties.
+9) Open Java Build Path/Libraries and add all libraries in folder JarLibraries, if they are not present.
+10) Check that the library JUnit 4 is present: if not, add it through the button "Add library".
+11) Check the JRE System Library (should be at least Java 7).
+12) Click on Java Compiler on the left, and set the same Compiler compliance level as the JRE System Lybrary in point 11.
+13) Now the library should work.
+
+In case of problems, contact Michele Borassi (michele.borassi@imtlucca.it).
