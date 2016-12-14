@@ -25,4 +25,9 @@ python edge2nde ip.txt > ip.nde
 It is suggested to keep an NDE version of all parsed files under a folder called NETWORKS to be used by both magnien and lasange while keeping an edge list version of all parsed files under NETWORKS/inputAscii which gets translated by SumSweep.jar into the appropriate webgraph format under NETWORKS/inputWebgraph
 
 
-2- 
+2- d.run.py is an automated script which uses the source codes of all the approaches above and tests them on different datasets and outputs the results for each approach and each dataset. One could easily change the datasets used by editing the hardcoded datasets in the  d.run.config file and including the dataset itself in the NETWORKS folder as instructed above.
+This script can be executed using the following command:
+python d.run.py d.run.config
+
+
+
