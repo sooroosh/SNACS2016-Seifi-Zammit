@@ -27,6 +27,7 @@ It is suggested to keep an NDE version of all parsed files under a folder called
 
 2- d.run.py is an automated script which uses the source codes of all the approaches above and tests them on different datasets and outputs the results for each approach and each dataset. One could easily change the datasets used by editing the hardcoded datasets in the  d.run.config file and including the dataset itself in the NETWORKS folder as instructed above.
 This script can be executed using the following command:
+
 python d.run.py d.run.config
 
 
