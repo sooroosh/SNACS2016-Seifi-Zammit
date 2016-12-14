@@ -1,0 +1,6 @@
+#! /bin/bash
+
+TMP="lasagne.`date +%s`"
+grep -v '#' $1 > $TMP
+java -jar lasagne_1_0.jar -ifub $TMP $2
+rm $TMP > /dev/null 2>&1
