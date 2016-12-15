@@ -32,4 +32,8 @@ This script can be executed using the following command:
 python d.run.py d.run.config
 
 
+The folder FutureWorks consists of the source code of the proposed method for generating synthetic graph using pyevoleve. One could easily change the eval_func and choose another fitness measure for evolving graphs. To run the code set the settings in the test.py and run:
+
+python test.py
+
 
